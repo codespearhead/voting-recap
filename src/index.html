@@ -1,17 +1,8 @@
 <!DOCTYPE html>
 <html lang="pt">
   {{> head }}
-  <body class="bg-dark text-white container container">
-    <div class="row p-2 text-center border border-light">{{> header }}</div>
-    <div class="row p-2 text-center border border-light">
-      {{> leaderboard }}
-    </div>
-    <div class="row p-2 text-center border border-light">
-      {{> call-to-action }}
-    </div>
-    <div class="row p-2 text-center border border-light">
-      {{> voting-recap }}
-    </div>
-    <div class="row p-2 text-center border border-light">{{> footer }}</div>
+  <body class="bg-dark text-white container">
+    {{> header }} {{> leaderboard }} {{> call-to-action }} {{> voting-recap }}
+    {{> footer }}
   </body>
 </html>
