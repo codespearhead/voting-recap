@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   version="1.1"
+   id="svg132"
+   width="900.00006mm"
+   height="182mm"
+   viewBox="0 0 3401.5749 687.87405"
+   sodipodi:docname="gda-footer.svg"
+   inkscape:version="1.2.2 (b0a8486, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview142"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     showgrid="false"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.17093128"
+     inkscape:cx="1418.6988"
+     inkscape:cy="526.52739"
+     inkscape:window-width="1366"
+     inkscape:window-height="740"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg132"
+     showguides="true">
+    <sodipodi:guide
+       position="1700.7875,223.1426"
+       orientation="1,0"
+       id="guide1192"
+       inkscape:locked="false" />
+  </sodipodi:namedview>
+  <defs
+     id="defs136" />
+  <g
+     id="g438"
+     style="font-variation-settings:normal;display:inline;opacity:1;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.33333;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+     transform="matrix(0.99598355,0,0,0.99598355,340.15749,-1.7133668e-7)">
+    <path
+       d="M -4.5976999e-6,690.64798 H 115.62266 l 89.928,-217.23599 h 307.04132 l -23.124,-69.68 H 228.67599 L 357.14532,78.901329 h 2.56933 L 415.60799,230.56399 527.51865,230.07332 429.08665,-2.7337999e-6 h -134.892 z"
+       style="font-variation-settings:normal;vector-effect:none;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.33333;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       id="path146" />
+    <text
+       xml:space="preserve"
+       style="font-variant:normal;font-weight:500;font-stretch:normal;font-size:359.415px;font-family:'Montserrat Medium';-inkscape-font-specification:Montserrat-Medium;font-variation-settings:normal;writing-mode:lr-tb;vector-effect:none;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.33333;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       id="text152"
+       x="689.53198"
+       y="255.99998"><tspan
+         x="689.53198 955.1394 1206.3702 1466.5864 1566.1443 1846.1284 2075.0757 2274.1912 2503.1384"
+         y="255.99998"
+         id="tspan148"
+         style="font-variation-settings:normal;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.33333;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1">GABINETE </tspan><tspan
+         x="689.53198 974.54779 1264.5955 1349.4174 1600.6482 1932.0284 2222.0759"
+         y="687.29761"
+         id="tspan150"
+         style="font-variation-settings:normal;vector-effect:none;fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:1.33333;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1">DO AMOM</tspan></text>
+    <path
+       d="M 595.30131,690.64798 H 578.90665 V 5.6373306 h 16.39466 z"
+       style="font-variation-settings:normal;vector-effect:none;fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none;stroke-width:1.33333;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+       id="path154" />
+  </g>
+  <rect
+     style="font-variation-settings:normal;display:none;opacity:1;vector-effect:none;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1.33333;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;-inkscape-stroke:none;stop-color:#000000;stop-opacity:1"
+     id="rect1136"
+     width="75.590553"
+     height="3110.866"
+     x="1662.9923"
+     y="-1090.7015" />
+</svg>
