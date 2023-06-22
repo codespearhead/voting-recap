@@ -5,26 +5,26 @@ import { readdirSync } from "fs";
 const root = "src";
 
 export default {
-	root,
-	build: {
-		outDir: "../dist",
-		emptyOutDir: true,
-		rollupOptions: { input: getInputFiles(root) },
-	},
-	server: {
-		host: '0.0.0.0',
-	},
+  root,
+  build: {
+    outDir: resolve(__dirname, "dist"),
+    emptyOutDir: true,
+    rollupOptions: { input: getInputFiles(root) },
+  },
+  server: {
+    host: "0.0.0.0",
+  },
   plugins: [
-		handlebars({
-			partialDirectory: resolve(root, "partials"),
-		}),
-	],
+    handlebars({
+      partialDirectory: resolve(root, "partials"),
+    }),
+  ],
 };
 
 function getInputFiles(path_to_folder = "") {
-	const dirents = readdirSync(path_to_folder, { withFileTypes: true });
-	const filesNames = dirents
-		.filter((dirent) => extname(dirent.name) === ".html")
-		.map((dirent) => resolve(path_to_folder, dirent.name));
-	return { ...filesNames };
+  const dirents = readdirSync(path_to_folder, { withFileTypes: true });
+  const filesNames = dirents
+    .filter((dirent) => extname(dirent.name) === ".html")
+    .map((dirent) => resolve(path_to_folder, dirent.name));
+  return { ...filesNames };
 }
