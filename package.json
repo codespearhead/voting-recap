@@ -6,13 +6,20 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "prepare": "husky install"
   },
   "devDependencies": {
-    "vite": "^4.3.9"
+    "husky": "8.0.3",
+    "lint-staged": "13.2.3",
+    "prettier": "2.8.8",
+    "vite": "4.3.9",
+    "vite-plugin-handlebars": "1.6.0"
   },
-  "dependencies": {
-    "vite-plugin-handlebars": "^1.6.0"
+  "engines": {
+    "node": "18.x"
   },
-  "engines": {"node": "18.x"}
+  "lint-staged": {
+    "*": "prettier --write"
+  }
 }
