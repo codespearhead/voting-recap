@@ -1,0 +1,34 @@
+:root {
+  --gray: hsl(0, 0%, 5%);
+  --light-gray: hsl(0, 0%, 10%);
+  --green: hsl(110, 90%, 30%);
+  --light-green: hsl(110, 90%, 40%);
+  --red: hsl(0, 70%, 50%);
+  --light-red: hsl(0, 70%, 60%);
+}
+
+h1,
+p {
+  margin: 0;
+}
+
+.bold-span {
+  text-decoration: underline;
+}
+
+.flex-align {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+body {
+  font-family: "Roboto";
+  background-color: black;
+  color: white;
+  display: grid;
+  text-align: center;
+  justify-content: center;
+  row-gap: 3em;
+}

@@ -1,0 +1,10 @@
+header > h1:first-of-type {
+  font-family: "Tomorrow";
+}
+header > h1:first-of-type > span {
+  color: red;
+}
+header > h1:last-of-type {
+  font-family: Rubik Marker Hatch;
+  font-size: 10vw;
+}
