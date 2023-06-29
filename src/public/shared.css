@@ -5,6 +5,11 @@
   --light-green: hsl(110, 90%, 40%);
   --red: hsl(0, 70%, 50%);
   --light-red: hsl(0, 70%, 60%);
+  --sm: 576px;
+  --md: 768px;
+  --lg: 992px;
+  --xl: 1200px;
+  --xxl: 1400px;
 }
 
 h1,
@@ -21,6 +26,7 @@ p {
   flex-direction: column;
   text-align: center;
   justify-content: center;
+  align-items: center;
 }
 
 body {
@@ -30,5 +36,5 @@ body {
   display: grid;
   text-align: center;
   justify-content: center;
-  row-gap: 3em;
+  row-gap: rem;
 }
