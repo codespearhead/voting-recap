@@ -1,7 +1,7 @@
 #leaderboard-container {
+  /* Fonte: https://www12.senado.leg.br/institucional/presidencia/noticia/rodrigo-pacheco/congresso-nacional-inaugura-o-ano-legislativo-em-sessao-solene */
   background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)),
-    /* Fonte: https://www12.senado.leg.br/institucional/presidencia/noticia/rodrigo-pacheco/congresso-nacional-inaugura-o-ano-legislativo-em-sessao-solene */
-      url("https://static.poder360.com.br/2022/09/Independencia-200Anos-SessaoSolene-CongressoNacional-2-848x477.jpg");
+    url("https://static.poder360.com.br/2022/09/Independencia-200Anos-SessaoSolene-CongressoNacional-2-848x477.jpg");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
