@@ -1,0 +1,19 @@
+#bill-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+#bill-container > :first-child {
+  height: 1rem;
+  padding-bottom: 1px;
+}
+
+#bill-description {
+  text-align: justify;
+  margin-top: 1rem;
+  padding: 1rem;
+  background-color: var(--light-gray);
+  border-radius: 0.5rem;
+}
