@@ -1,9 +1,30 @@
+:root {
+  --gray: hsl(0, 0%, 5%);
+  --light-gray: hsl(0, 0%, 10%);
+  --green: hsl(110, 90%, 30%);
+  --light-green: hsl(110, 90%, 40%);
+  --red: hsl(0, 70%, 50%);
+  --light-red: hsl(0, 70%, 60%);
+}
+
 h1,
 p {
   margin: 0;
 }
 
+.bold-span {
+  text-decoration: underline;
+}
+
+.flex-align {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
 body {
+  font-family: "Roboto";
   background-color: black;
   color: white;
   display: grid;
@@ -12,14 +33,8 @@ body {
   row-gap: 3em;
 }
 
-#header {
-  display: flex;
-  flex-direction: column;
-  text-align: inherit;
-  justify-content: inherit;
-}
 header > h1:first-of-type {
-  font-family: Tomorrow;
+  font-family: "Tomorrow";
 }
 header > h1:first-of-type > span {
   color: red;
@@ -29,16 +44,59 @@ header > h1:last-of-type {
   font-size: 10vw;
 }
 
-#leaderboard_title > span {
-  font-weight: bold;
+#leaderboard-score-cross {
+  padding-left: 2rem;
+  padding-right: 2rem;
+  min-width: 20px;
+  max-width: 3vw;
 }
-#leaderboard_score {
-  /* d-=flex flex-column justify-content-center */
-  font-weight: bold;
+
+#leaderboard-score {
+  flex-direction: row;
 }
-#leaderboard_score > img {
-  max-height: 10vh;
-  width: 5%;
+
+.leaderboard-score-card {
+  background-color: var(--light-gray);
+  border-radius: 0.5rem;
+}
+
+.leaderboard-score-card-number {
+  font-weight: 100;
+  padding: 0.5rem;
+  font-family: "Inter";
+  font-weight: bold;
+  border-radius: 0.5rem 0.5rem 0 0;
+  font-size: 3rem;
+  background-color: var(--green);
+}
+
+.leaderboard-score-card-description > :first-child {
+  padding-top: 0.75rem;
+  padding-bottom: 0.25rem;
+}
+
+.leaderboard-score-card-description > p:nth-child(2) {
+  background-color: var(--gray);
+  color: var(--light-green);
+  padding-left: 2rem;
+  padding-right: 2rem;
+  font-size: x-large;
+  font-weight: bold;
+  letter-spacing: 0.2rem;
+}
+
+.leaderboard-score-card-description > :last-child {
+  padding-top: 0.25rem;
+  padding-bottom: 0.75rem;
+}
+
+.leaderboard-score-card-description-variant > p:nth-child(2) {
+  background-color: var(--gray);
+  color: var(--light-red);
+}
+
+.leaderboard-score-card-number-variant {
+  background-color: var(--red);
 }
 
 footer > img {
