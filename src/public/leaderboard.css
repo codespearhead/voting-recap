@@ -56,3 +56,9 @@
   background-color: var(--gray);
   color: var(--light-red);
 }
+
+@media (max-width: 500px) {
+  #leaderboard-score {
+    grid-template-rows: 1fr;
+  }
+}
