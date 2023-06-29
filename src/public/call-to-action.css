@@ -1,0 +1,32 @@
+#call-to-action-container > :first-child {
+  hyphens: none;
+  font-size: 1.25rem;
+}
+
+#call-to-action-container > :last-child {
+  text-align: justify;
+  margin-top: 1rem;
+  hyphens: auto;
+  padding: 1rem;
+  background-color: var(--light-gray);
+  border-radius: 0.5rem;
+  max-width: 75vw;
+}
+
+@media (min-width: 768px) {
+  #call-to-action-container {
+    align-items: flex-start;
+  }
+  #call-to-action-container {
+    /* Fonte: https://www.pldacensura.com/ */
+    background-image: linear-gradient(rgba(0, 0, 0, 0), var(--light-gray)),
+      url("https://static.wixstatic.com/media/4df940_fe447169390e4824978a829cf7c0bc08~mv2.webp");
+    background-position: right bottom;
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+
+  #call-to-action-container > :last-child {
+    max-width: 60vw;
+  }
+}
