@@ -1,11 +1,11 @@
-#bill-container {
+#bill-title {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 0.5rem;
 }
 
-#bill-container > :first-child {
+#bill-title > :first-child {
   height: 1rem;
   padding-bottom: 1px;
 }
@@ -13,7 +13,9 @@
 #bill-description {
   text-align: justify;
   margin-top: 1rem;
+  hyphens: auto;
   padding: 1rem;
   background-color: var(--light-gray);
   border-radius: 0.5rem;
+  max-width: 75vw;
 }

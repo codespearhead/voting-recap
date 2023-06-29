@@ -1,11 +1,14 @@
 :root {
   --gray: hsl(0, 0%, 5%);
   --light-gray: hsl(0, 0%, 10%);
+  --lighter-gray: hsl(0, 0%, 20%);
   --green: hsl(110, 90%, 30%);
   --light-green: hsl(110, 90%, 40%);
   --red: hsl(0, 70%, 50%);
   --light-red: hsl(0, 70%, 60%);
-  --section-padding: 1rem;
+  --section-margin: 0.75rem;
+  --section-y-padding: 1.5rem;
+  --section-x-padding: 1.5rem;
   --sm: 576px;
   --md: 768px;
   --lg: 992px;
@@ -34,13 +37,18 @@ body {
   font-family: "Roboto";
   background-color: black;
   color: white;
-  display: grid;
+  display: flex;
+  flex-direction: column;
   text-align: center;
   justify-content: center;
   row-gap: rem;
+  hyphens: auto;
 }
 
 body > * {
-  padding-top: var(--section-padding);
-  padding-bottom: var(--section-padding);
+  margin: var(--section-margin);
+  padding: var(--section-x-padding) var(--section-y-padding)
+    var(--section-x-padding) var(--section-y-padding);
+  background-color: var(--lighter-gray);
+  border-radius: 0.5rem;
 }
