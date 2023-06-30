@@ -25,7 +25,7 @@
   justify-content: center;
   align-items: space-between;
   background-color: var(--dark-red);
-  border-radius: 0 0.5rem 0.5rem 0;
+  border-radius: 0.5rem 0.5rem;
 }
 
 .voting-recap-card-container-variant {
