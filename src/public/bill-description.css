@@ -10,7 +10,8 @@
   padding-bottom: 1px;
 }
 
-#bill-description {
+.bill-description {
+  text-indent: 30px;
   text-align: justify;
   margin-top: 1rem;
   hyphens: auto;
