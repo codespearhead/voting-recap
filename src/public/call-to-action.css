@@ -1,11 +1,5 @@
-#call-to-action-container > :first-child {
-  hyphens: none;
-  font-size: 1.25rem;
-}
-
 #call-to-action-container > :nth-child(2) {
   text-align: justify;
-  margin-top: 1rem;
   hyphens: auto;
   padding: 1rem;
   background-color: var(--light-gray);

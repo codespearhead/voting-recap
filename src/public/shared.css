@@ -2,9 +2,11 @@
   --gray: hsl(0, 0%, 5%);
   --light-gray: hsl(0, 0%, 10%);
   --lighter-gray: hsl(0, 0%, 15%);
+  --dark-green: hsl(109, 39%, 26%);
   --green: hsl(110, 90%, 30%);
   --light-green: hsl(110, 90%, 40%);
-  --red: hsl(0, 70%, 50%);
+  --dark-red: hsl(0, 37%, 28%);
+  --red: hsl(0, 84%, 52%);
   --light-red: hsl(0, 70%, 60%);
   --section-margin: 0.75rem;
   --section-y-padding: 1.5rem;
@@ -14,6 +16,16 @@
 h1,
 p {
   margin: 0;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.section-title {
+  hyphens: none;
+  font-size: 1.25rem;
+  padding-bottom: 1.5rem;
 }
 
 .bold-span {
