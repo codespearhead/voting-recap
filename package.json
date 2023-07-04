@@ -20,6 +20,6 @@
     "node": "18.x"
   },
   "lint-staged": {
-    "*.!(svg)": "prettier --write"
+    "*.!(svg|gitignore)": "prettier --write"
   }
 }

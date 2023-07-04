@@ -18,7 +18,7 @@
   border-radius: 0.5rem;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 1366px) {
   #call-to-action-container {
     align-items: flex-start;
   }
