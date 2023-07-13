@@ -52,7 +52,7 @@ body {
   hyphens: auto;
 }
 
-body > div {
+.partial-section {
   margin: var(--section-margin);
   padding: var(--section-x-padding) var(--section-y-padding)
     var(--section-x-padding) var(--section-y-padding);
