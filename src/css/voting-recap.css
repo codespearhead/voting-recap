@@ -1,4 +1,4 @@
-#voting-recap-container > :first-child {
+.voting-recap-container > :first-child {
   hyphens: none;
   font-size: 1.25rem;
 }
@@ -10,14 +10,14 @@
   gap: 1rem;
 }
 
-#voting-recap-card-main-photo {
+.voting-recap-card-main-photo {
   min-width: 2rem;
   min-height: 2rem;
   max-height: 11rem;
   border-radius: 0.5rem 0 0 0.5rem;
 }
 
-#voting-recap-card-info-container {
+.voting-recap-card-info-container {
   justify-content: space-between;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
@@ -27,7 +27,6 @@
   display: flex;
   text-align: center;
   justify-content: center;
-  align-items: space-between;
   background-color: var(--dark-green);
   border-radius: 0.5rem 0.5rem;
 }
@@ -46,18 +45,18 @@
   background-color: var(--red);
 }
 
-#voting-recap-card-info-name {
+.voting-recap-card-info-name {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
   padding-bottom: 0.25rem;
 }
 
-#voting-recap-card-info-state {
+.voting-recap-card-info-state {
   font-family: "Inter";
   font-size: 0.6rem;
 }
 
-#voting-recap-card-info-party-container {
+.voting-recap-card-info-party-container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -65,7 +64,7 @@
   padding: 0.25rem;
 }
 
-#voting-recap-call-to-action {
+.voting-recap-call-to-action {
   text-decoration: underline;
   font-family: "Inter";
   font-size: 0.8rem;
@@ -73,17 +72,17 @@
   padding-bottom: 0.25rem;
 }
 
-#voting-recap-card-info-party-logo {
+.voting-recap-card-info-party-logo {
   height: 1.5rem;
   padding-bottom: 1px;
   border-radius: 0.5rem;
 }
 
 @media (min-width: 576px) {
-  #voting-recap-container > :first-child {
+  .voting-recap-container > :first-child {
     padding-bottom: 1.75rem;
   }
-  #voting-recap-card-safearea {
+  .voting-recap-card-safearea {
     flex-direction: row;
     gap: 2rem;
   }
